@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz em JavaScript</title>
+    <link rel="stylesheet" href="Quiz.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Quiz de Conhecimentos </h1>
+
+        <div class="secao-inicio">
+            <h2>Nome do Jogador</h2>
+            <div class="input-jogador">
+                <label for="nomeJogador">Nome:</label>
+                <input type="text" id="nomeJogador" placeholder="Digite seu nome">
+            </div>
+            <button class="iniciar-quiz">Iniciar</button>
+            <button class="ver-rank">Ver Ranking</button>
+        </div>
+        
+        <div class="perguntas-container hide">
+            <div class="pontuacao-texto">Pontuação: 0</div>
+            <div class="pergunta-texto"></div>
+            <div class="respostas-container">
+                </div>
+            <div class="corretor"></div>
+            </div>
+
+        <div class="ranking-container hide">
+            <h2>🥇 Ranking de Pontuação</h2>
+            <ul id="listaRanking">
+                </ul>
+            <button class="voltar-inicio">Voltar</button>
+        </div>
+        
+    </div>
+
+    <script src="Quiz.js"></script>
+</body>
+</html>

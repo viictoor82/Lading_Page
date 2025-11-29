@@ -1,0 +1,134 @@
+/* teste.css */
+
+/* 1. FUNCIONALIDADE ESSENCIAL (Não alterar) */
+.hide {
+    display: none !important;
+}
+
+/* 2. LAYOUT GERAL */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+/* Garante que o input e o label fiquem organizados */
+.input-jogador {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+#nomeJogador {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    flex-grow: 1;
+    max-width: 250px;
+}
+
+/* 3. ESTILOS DO QUIZ */
+
+.pontuacao-texto {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #007bff;
+}
+
+.pergunta-texto {
+    font-size: 1.5em;
+    margin-bottom: 25px;
+    min-height: 40px; 
+}
+
+.respostas-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resposta {
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    font-weight: 500;
+}
+
+.resposta:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-1px);
+}
+
+/* Feedback (Correto/Incorreto) */
+.corretor {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 1.1em;
+    min-height: 20px; /* Ajuda a evitar saltos no layout */
+}
+
+/* 4. ESTILOS DO RANKING */
+.ranking-container {
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 6px;
+}
+
+#listaRanking {
+    list-style: none;
+    padding: 0;
+    margin-top: 15px;
+}
+
+#listaRanking li {
+    background: #fff;
+    margin-bottom: 8px;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+}
+
+/* 5. ESTILOS DE BOTÕES GERAIS */
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+}
+
+.iniciar-quiz {
+    background-color: #28a745; /* Verde */
+    color: white;
+}
+.iniciar-quiz:hover {
+    background-color: #218838;
+}
+
+.ver-rank, .voltar-inicio {
+    background-color: #007bff; /* Azul */
+    color: white;
+}
+.ver-rank:hover, .voltar-inicio:hover {
+    background-color: #0056b3;
+}

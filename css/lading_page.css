@@ -1,0 +1,151 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+body{
+    background-image: url(fundos/3298668.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #000000;
+    font-family:'Merriweather', serif;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+    padding: 0;
+    height: 100vh;
+    overflow-x: hidden;
+}
+nav{
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    font-family: 'Merriweather';
+    
+}
+nav .logo{
+    font-size: 32px ;
+    margin: 0;
+    color: #000000;
+}
+nav ul.menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+nav ul.menu li a{
+    text-align: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+nav ul.menu li a:hover{
+    opacity: 0.6;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+header{
+    background: transparent;
+    font-size: 32px;
+    font-family: 'Merriweather';
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+   
+}
+h1{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 60px;
+}
+h2{
+    font-family: 'Merriweather', serif;
+    font-size: 36px;
+}
+p{
+    font-family: 'Merriweather', serif;
+    font-size: 20px;
+}
+.habilidades{
+    text-align: center;
+}
+.habilidades ul{
+    display: inline-block;
+    text-align: left;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display:grid;
+    gap: 5px;
+    width: 80%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.secao{
+    width: auto;
+    height: auto;
+    min-width:200px ;
+    min-height: 150px;
+    background: white;
+    color: black;
+    font-family: 'diario de um banana';
+    border: solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-shadow: 0 2px 3px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    text-align: center;
+    background: transparent;
+    width: auto;
+    height: 25px;
+    padding: 15px;
+}
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; 
+  overflow: hidden;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+.link-contatos{
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.link-contatos:hover {
+    color: darkgrey;
+    text-decoration: underline;
+}
+.link-secao{
+    font-size: 20px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.link-secao:hover {
+    color: darkgrey;
+    text-decoration: underline;
+}

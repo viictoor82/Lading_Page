@@ -1,0 +1,56 @@
+body{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #acee99;
+}
+header{
+    background-color: #96db99;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+div{
+    text-align: center;
+    font-size: 25px;
+    font-weight: normal;
+}
+div#genero{
+    margin-top: 30px;
+}
+input#idade{
+    width: 60px;
+    height: 25px;
+    text-align: center;
+    font-weight: bold;
+}
+div#img{
+    text-align: center;
+
+}
+div#botao{
+    text-align: center;
+    margin-top: 20px;
+    border-radius: 25px;
+    padding: 10px 20px;
+
+}
+section{
+    background-color: #c2f5c0;
+    margin: auto;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+}
+footer{
+    background-color: #96db99;
+    color: rgb(101, 101, 101);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-weight: italic;
+}

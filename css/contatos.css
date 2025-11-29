@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap");
+nav{
+    backdrop-filter: blur(5px);
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 200px;
+    font-family: 'Merriweather';
+}
+nav .logo{
+    font-size: 32px ;
+    margin: 0;
+    color: #000000;
+}
+nav ul.menu{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+nav ul.menu li a{
+    text-align: none;
+    color: #000000;
+    font-size: 20px;
+    font-weight: 500;
+    transition: 0.3s;
+}
+nav ul.menu li a:hover{
+    opacity: 0.6;
+}
+header{
+    margin-top: 30px;
+}
+body{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-image: url(fundos/3298668.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    overflow-x: hidden;
+}
+h1, p{
+    font-family: 'Merriweather';
+    color: #000000;
+}
+h1{font-size: 42px;}
+p{font-size: 32px;}
+
+footer{
+    text-align: center;
+    background: transparent;
+    width: auto;
+    height: 25px;
+    padding: 15px;
+}
+
+.link-contatos{
+    font-size: 28px;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+.link-contatos:hover {
+    color: darkgrey;
+    text-decoration: underline;
+}
